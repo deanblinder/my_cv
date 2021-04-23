@@ -7,6 +7,18 @@ import './Header.css'
 class Header extends Component{
     render() {
         return(
+            <Navbar className='header' bg="light" variant="light">
+                <Navbar.Brand style={{marginLeft:'5%'}} href="/AboutMe">
+                    <h1>Dean blinder </h1>
+                    <h3 style={{marginTop:'0'}}>software information engineer student</h3>
+                </Navbar.Brand>
+                <Nav style={{marginLeft:'10%'}} className="mr-auto">
+                    <Nav.Link href="/Experience" >Experience</Nav.Link>
+                    <Nav.Link href="/Education" >Education</Nav.Link>
+                    <Nav.Link href="/Projects" >Projects</Nav.Link>
+                    <Nav.Link href="/Certifi" >Certifi</Nav.Link>
+                </Nav>
+            </Navbar>
             // <div className='header'>
             //         <Nav>
             //             <Nav.Link style={{color:'black'}} href="/AboutMe" >
@@ -29,18 +41,6 @@ class Header extends Component{
             //             <Nav.Link style={{color:'black'}} href="/Certifi" >Certifi</Nav.Link>
             //         </Nav>
             // </div>
-            <Navbar className='header'>
-                <Navbar.Brand style={{marginLeft:'70px'}} href="/AboutMe">
-                    <h1 style={{marginBottom:'0'}}>Dean blinder </h1>
-                    <h3 style={{marginTop:'10px'}} >software information engineer student</h3>
-                </Navbar.Brand>
-                <Nav>
-                    <Nav.Link style={{marginLeft:'100px'}} href="/Experience" >Experience</Nav.Link>
-                    <Nav.Link style={{marginLeft:'100px'}} href="/Education" >Education</Nav.Link>
-                    <Nav.Link style={{marginLeft:'100px'}} href="/Projects" >Projects</Nav.Link>
-                    <Nav.Link style={{marginLeft:'100px'}} href="/Certifi" >Certifi</Nav.Link>
-                </Nav>
-            </Navbar>
         )
     }
 }
