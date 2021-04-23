@@ -8,7 +8,7 @@ class Header extends Component{
     render() {
         return(
             <Navbar className='header' bg="light" variant="light">
-                <Navbar.Brand style={{marginLeft:'5%'}} href="/AboutMe">
+                <Navbar.Brand style={{marginLeft:'5%'}} href="/">
                     <h1>Dean blinder </h1>
                     <h3 style={{marginTop:'0'}}>software information engineer student</h3>
                 </Navbar.Brand>
