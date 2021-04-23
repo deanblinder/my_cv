@@ -1,0 +1,19 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+/*    up down*/
+    justify-content: space-between;
+
+/*    left right */
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin:0;
+
+}
