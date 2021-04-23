@@ -12,10 +12,11 @@ class App extends Component {
     return (
           <Layout>
             <Switch>
-                <Route exect path='/' component={AboutMe}/>
+
                 <Route exact path='/Experience' component={Experience}/>
                 <Route exact path='/Education' component={Education}/>
                 <Route exact path='/Projects' component={Projects}/>
+                <Route exect path='/' component={AboutMe}/>
             </Switch>
           </Layout>
 
